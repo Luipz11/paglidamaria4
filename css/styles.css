@@ -1,0 +1,402 @@
+body {
+    font-family: "tenor sans", sans-serif;
+    font-size: large;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    background-color: #e5f1ee;
+}
+
+header {
+    background-color: #dbe5dd;
+    padding: 20px;
+    background-image: url("data:image/svg+xml,%3Csvg width='32' height='64' viewBox='0 0 32 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 28h20V16h-4v8H4V4h28v28h-4V8H8v12h4v-8h12v20H0v-4zm12 8h20v4H16v24H0v-4h12V36zm16 12h-4v12h8v4H20V44h12v12h-4v-8zM0 36h8v20H0v-4h4V40H0v-4z' fill='%2383c675' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+    margin-top: 50px;
+}
+
+header {
+    display: flex;
+     align-items: center;
+    padding: 20px 0;
+    
+}
+
+
+.titulo-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 100px;
+}
+
+h2 {
+    margin: 0;
+    margin-top: 10px;
+
+}
+
+h1 {
+    margin: 10px;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0px 10px;
+    justify-content: center;
+}
+
+nav ul li {
+    text-align: right;
+    display: inline;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+#menu {
+    position: relative;
+    left: 550px;
+}
+
+nav ul li a {
+    color: #171718;
+    text-decoration: none;
+}
+
+div {
+    padding: 50px 20px;
+}
+
+footer {
+    gap: 20px align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.footer-section {
+    margin-right: 20px;
+    flex: 1;
+}
+
+.footer-section p {
+    margin: 0;
+}
+
+
+.footer-section2,
+.footer-section3 {
+    position: relative;
+}
+
+.footer-section {
+    margin-right: 20px;
+
+}
+
+
+.social-icons {
+    float: left;
+
+}
+
+.social-icons ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 24px;
+
+}
+
+
+.whatsapp-float a {
+    background-color: #64cb86;
+    color: rgb(229, 238, 232);
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    display: block;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease !important;
+}
+
+.whatsapp-float a:hover {
+    background-color: #cee4e2;
+}
+
+p {
+    padding: 10px;
+    font-size: x-large;
+    text-align: justify;
+    padding-bottom: none;
+    padding-top: 10px;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.nav-section {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 5px;
+}
+
+.nav-section ul {
+    padding: 5px;
+    margin: 5px;
+}
+
+.nav-section li {
+    margin-right: 5px;
+}
+
+.navbar {
+    background-color: transparent !important;
+}
+
+.nav-section ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar-toggler-icon {
+    color: white; 
+    background-color: rgb(245, 241, 244); 
+    border-radius: 50%; 
+    border-color: #fff;
+    padding: 5px;
+}
+
+.logoytipo {
+    display: flex;
+    align-items: center;
+
+}
+
+
+.logo {
+    width: 80px;
+    margin-right: 40px !important;
+
+}
+
+.tipografia {
+    width: 80px;
+    margin-left: 50px !important;
+}
+
+.titulo {
+    margin-left: 100px;
+    align-self: flex-end;
+
+}
+
+h2 {
+    font-size: 30px;
+
+}
+
+h3 {
+    padding-left: 20px;
+    padding-bottom: none;
+    padding-top: 0.5px;
+
+}
+
+.imag-terapias-personales {
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 1px;
+
+}
+
+.imag-terapias-colectivas {
+    padding-left: 20px;
+}
+
+.imag-hieloterapia {
+    padding-left: 20;
+}
+
+.imag-temazcal {
+    padding-left: 20px;
+}
+
+.imag-limpieza-energetica {
+    padding-left: 20px;
+}
+
+.formulario {
+    padding-left: 20px;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+iframe {
+    width: 100%;
+    height: 600px;
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        font-size: 14px;
+        margin: 0;
+        }
+
+    iframe {
+        width: 100%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+    
+    p {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+}
+
+
+@media only screen and (min-width: 501px) and (max-width: 960px) {
+    body {
+        
+        font-size: 16px;
+       
+        margin: 10px;
+       
+    }
+
+    iframe {
+        width: 100%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    #formulario {
+        align-items: flex-start;
+    }
+
+}
+
+   @media only screen and (min-width: 961px) {
+    body {
+        
+        font-size: 18px;
+      
+        margin: 20px;
+        
+    }
+
+    h2 { 
+        font-size: 24px;
+    }
+}
+ 
+
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+iframe {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+
+
+.location iframe {
+    width: 600px;
+    height: 450px;
+}
+
+.contacto-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto; 
+}
+
+.contacto {
+    text-align: center; 
+}
+
+h1 {
+    text-align: center;
+    
+}
